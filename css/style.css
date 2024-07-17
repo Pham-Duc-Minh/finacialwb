@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar{
+	height: 50px;
+	line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #F2C94C
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px;
+	border-radius: 15px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #0D6EFD;
+	background-color: #F2C94C
+}
+main{
+	min-height: 500px
+}
+footer{
+	min-height: 200px
+}
+.underline{
+	border-bottom: 2px solid #F2C94C
+}
+.highlight .nav-item .nav-link:hover{
+	color: #FFFBFB;
+}
+.resize{
+	height: 7px;
+	background-color: gray
+}
+.imgb{
+	background-repeat: no-repeat
+}
+.btnhv{
+	text-decoration: none;
+	color: white
+}
+.btnhv:hover{
+	color:#000000
+}
+#why{
+	width: 100%;
+	min-height: 350px;
+	background-image: url("../img/why.jpg");
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.fsize{
+	font-size: 20px
+}
+#services{
+	width: 100%;
+	min-height: 350px;
+	background-color: lightgray
+}
+#expertize-service a{
+	text-decoration: none
+}
+#expertize-service a:hover{
+	color:#198754
+}
+.readhv:hover{
+	color: black!important;
+	background-color: white!important
+}
